@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "DrawCircles.getDistanceDIf(x : Int, y : Int) -&gt; Int:DrawCircles.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "difX*difX + difY*difY">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DrawCircles.myPerformeCode() -&gt; ():DrawCircles.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.layer.sublayers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DrawCircles.touchesBegan(Set&lt;UITouch&gt;, with : UIEvent?) -&gt; ():DrawCircles.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Double(location?.x.rounded())">
+            </PersistentString>
+            <PersistentString
+               value = "location?.x.rounded()">
+            </PersistentString>
+            <PersistentString
+               value = "Double(location?.x)">
+            </PersistentString>
+            <PersistentString
+               value = "randomX">
+            </PersistentString>
+            <PersistentString
+               value = "Int(location?.x.rounded())">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
