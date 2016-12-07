@@ -15,6 +15,8 @@
 		112F60651DF65BB600AA1C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112F60631DF65BB600AA1C3C /* LaunchScreen.storyboard */; };
 		112F60701DF65BB600AA1C3C /* ClickRandomBallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F606F1DF65BB600AA1C3C /* ClickRandomBallsTests.swift */; };
 		112F607B1DF65BB600AA1C3C /* ClickRandomBallsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F607A1DF65BB600AA1C3C /* ClickRandomBallsUITests.swift */; };
+		112F608C1DF6602700AA1C3C /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F608B1DF6602700AA1C3C /* PlayVC.swift */; };
+		112F608E1DF6625C00AA1C3C /* DrawCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F608D1DF6625C00AA1C3C /* DrawCircles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		112F60761DF65BB600AA1C3C /* ClickRandomBallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickRandomBallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112F607A1DF65BB600AA1C3C /* ClickRandomBallsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickRandomBallsUITests.swift; sourceTree = "<group>"; };
 		112F607C1DF65BB600AA1C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112F608B1DF6602700AA1C3C /* PlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		112F608D1DF6625C00AA1C3C /* DrawCircles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCircles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,9 @@
 		112F60561DF65BB600AA1C3C /* ClickRandomBalls */ = {
 			isa = PBXGroup;
 			children = (
+				112F60881DF65FEA00AA1C3C /* Model */,
+				112F60891DF65FF300AA1C3C /* View */,
+				112F608A1DF65FFB00AA1C3C /* Controller */,
 				112F60571DF65BB600AA1C3C /* AppDelegate.swift */,
 				112F60591DF65BB600AA1C3C /* ViewController.swift */,
 				112F605B1DF65BB600AA1C3C /* Main.storyboard */,
@@ -126,6 +133,29 @@
 				112F607C1DF65BB600AA1C3C /* Info.plist */,
 			);
 			path = ClickRandomBallsUITests;
+			sourceTree = "<group>";
+		};
+		112F60881DF65FEA00AA1C3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		112F60891DF65FF300AA1C3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				112F608B1DF6602700AA1C3C /* PlayVC.swift */,
+				112F608D1DF6625C00AA1C3C /* DrawCircles.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		112F608A1DF65FFB00AA1C3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +297,9 @@
 			files = (
 				112F60601DF65BB600AA1C3C /* ClickRandomBalls.xcdatamodeld in Sources */,
 				112F605A1DF65BB600AA1C3C /* ViewController.swift in Sources */,
+				112F608C1DF6602700AA1C3C /* PlayVC.swift in Sources */,
 				112F60581DF65BB600AA1C3C /* AppDelegate.swift in Sources */,
+				112F608E1DF6625C00AA1C3C /* DrawCircles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
